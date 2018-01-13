@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="false"
+            android:icon="@drawable/bn"
+            android:title="Home" />
+        <item
+            android:id="@+id/learelct"
+            android:checked="false"
+            android:icon="@drawable/first"
+            android:title="Learn Electronics" />
+        <item
+            android:id="@+id/learnmicro"
+            android:checked="false"
+            android:icon="@drawable/micro"
+            android:title="Learn Microcontroller" />
+
+        <item
+            android:id="@+id/elecpro"
+            android:checked="false"
+            android:icon="@drawable/pro"
+            android:title="Electronics Project" />
+        <item
+            android:id="@+id/micpro"
+
+            android:checked="false"
+            android:icon="@drawable/avr"
+            android:title="Microcontroller Projects" />
+        <item
+            android:id="@+id/pcb"
+            android:checked="false"
+            android:icon="@drawable/circuit"
+            android:title="PCB" />
+        <item
+            android:id="@+id/Store"
+            android:checked="false"
+            android:icon="@drawable/store"
+            android:title="Store" />
+
+        <item
+            android:id="@+id/Fourm"
+            android:checked="false"
+            android:icon="@drawable/fourm"
+            android:title="Fourm"
+
+            />
+        <item
+            android:id="@+id/Update"
+            android:checked="false"
+            android:icon="@drawable/update"
+            android:title="Updates" />
+    </group>
+</menu>

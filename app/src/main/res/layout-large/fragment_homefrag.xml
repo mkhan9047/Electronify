@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.mujahid.electronify.homefrag"
+    android:orientation="vertical"
+    android:weightSum="1">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    android:background="#3C3A36">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:weightSum="1">
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/card_view1"
+        android:layout_margin="16dp"
+        card_view:cardCornerRadius = "5dp"
+
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Welcome To Electronify"
+                android:id="@+id/first"
+                android:layout_marginTop="7dp"
+                android:textSize="50px"
+                android:layout_marginLeft="143dp"
+                android:textStyle="bold"
+                android:textColor="#ff0090" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/card_view3"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="50dp"
+        card_view:cardCornerRadius = "5dp"
+        android:layout_height="wrap_content"
+
+        android:layout_width="match_parent"
+        android:layout_weight="0.20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_margin="10dp"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you struggling in electronics ? Have you been stuck some where in your electronics projects ?Do you want to learn about solar and install it in your home ? "
+            android:textSize="15sp"
+            />
+    <ImageView
+    android:layout_width="wrap_content"
+    android:id="@+id/mainimg"
+    android:layout_height="200dp"
+        android:layout_marginLeft="40dp"
+
+    android:src="@drawable/navihead4"
+        android:layout_marginTop="20dp" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Or Are you a new-bie and wants to learn electronics and embedded system and make your career in that field ? Then congratulations you are in right place  !  you can learn basic electronics to different hardware level language in this website .We will provide you basic to advanced knowledge about all you need to know about electronics communications and embedded systems in simplified methods, learn  starting from zero to a skillful person ."
+                android:id="@+id/textView" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/donate"
+        android:layout_margin="16dp"
+        card_view:cardCornerRadius = "5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+          >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Donate Us\nIf you think we should continue our works"
+            android:textSize="15sp"
+            />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="image"
+                android:src="@drawable/donate"
+                />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
